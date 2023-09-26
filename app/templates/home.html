@@ -4,14 +4,9 @@
     <h1> Hi!!!</h1>
 
     {% if red == True %}
-    <p style="color:red">{{ message }}</p>
+    <p style="color: blue;">{{ message }}</p>
     {% else %}
     <p>{{ message }}</p>
     {% endif %}
 
-    <ul>
-        {% for person in html_favorite_things %}
-        <li>{{ person}}</li>
-        {% endfor %}
-    </ul>
 {% endblock %}
